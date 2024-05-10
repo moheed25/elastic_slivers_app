@@ -8,7 +8,7 @@ class SliverAppBarBldr extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      backgroundColor: Colors.black,
       elevation: 0,
       pinned: true,
       centerTitle: false,
